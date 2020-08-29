@@ -21,7 +21,7 @@ class QCustomQWidget (QtWidgets.QWidget):
         self.iconlabel = QtWidgets.QLabel()      #<---- Adds a label into the QH box
         self.box.addWidget(self.iconlabel, 0)    #<---- Gives the layout positioning
         self.box.addLayout(self.container, 1)    #<---- Positions the
-        self.setLayout(self.box)                 #<----
+        self.setLayout(self.box)
         self.namelabel.setStyleSheet('''
             color: rgb(66, 66, 66);
         ''')
