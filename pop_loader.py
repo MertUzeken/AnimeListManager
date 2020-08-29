@@ -1,5 +1,6 @@
 # Author: Mert Uzeken
 # Project Name: Anime List Manager
+# Root Version
 
 from pandas import *
 

@@ -3,6 +3,7 @@
 # Project Name: Anime List Manager
 # Form implementation generated from reading ui file 'form.ui'
 # Created by: PyQt5 UI code generator 5.13.2
+# Root Version
 
 from PyQt5 import QtCore, QtGui, QtWidgets
 from PyQt5.QtCore import QObject, pyqtSignal
@@ -21,7 +22,7 @@ class QCustomQWidget (QtWidgets.QWidget):
         self.iconlabel = QtWidgets.QLabel()      #<---- Adds a label into the QH box
         self.box.addWidget(self.iconlabel, 0)    #<---- Gives the layout positioning
         self.box.addLayout(self.container, 1)    #<---- Positions the
-        self.setLayout(self.box)                 #<----
+        self.setLayout(self.box)
         self.namelabel.setStyleSheet('''
             color: rgb(66, 66, 66);
         ''')
