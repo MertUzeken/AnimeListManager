@@ -17,3 +17,4 @@ ToDo:
 5. Search function
 6. Preferences
 7. Updater for the local list
+8. Logging and exeception handling
